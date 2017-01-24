@@ -42,3 +42,12 @@ eg. `snail` will be: `ailns`
 So in map we will add `map['ailns'] = 'snail'`
 
 So as you can see we could have key's collision but as i write before it doesn't matter!
+
+
+With such created map we will do:
+- For each letter in alphabet (a,b,c,d,e...)
+- Add letter to our search `word` and generate *key* for it
+- Check do we have such *key* in map if yes simply aggregate it
+- repeat recursively and and when can't find key in map compare of length of aggregated word and simply pick longer one
+
+
