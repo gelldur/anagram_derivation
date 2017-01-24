@@ -57,7 +57,6 @@ std::vector<AnagramDerivation> findAnagram(
 
 	std::vector<AnagramDerivation> longestAnagramDerivation = track;
 
-	//TODO make random shuffle on ALPHABET to be like better on worst cases :D
 	for (const auto& letter : ALPHABET)
 	{
 		std::string sortedWordKey = word;//make a copy for sort
