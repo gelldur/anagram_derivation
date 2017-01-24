@@ -35,7 +35,7 @@ class MyHTMLParser(HTMLParser):
 
 dictionaryFile = open("dictionary_crawled", 'w+')
 
-for i in range(11,33):
+for i in range(3,33):
 
 	previousWord = ''
 	for j in range(1,200):
