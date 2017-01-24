@@ -3,5 +3,8 @@ PROJECT(anagram_derivation)
 
 SET(CMAKE_CXX_STANDARD 11)
 
-SET(SOURCE_FILES main.cpp)
-ADD_EXECUTABLE(anagram_derivation ${SOURCE_FILES})
+ADD_EXECUTABLE(anagram_derivation main.cpp algorithm.cpp)
+
+TARGET_COMPILE_OPTIONS(anagram_derivation PRIVATE
+		-Wall -pedantic -Werror
+		-Wno-unused-private-field -Wnon-virtual-dtor)
