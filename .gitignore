@@ -29,6 +29,7 @@
 *.app
 
 cmake-build-debug/
+cmake-build-release/
 /.idea/anagram_derivation.iml
 /.idea/encodings.xml
 /.idea/misc.xml
