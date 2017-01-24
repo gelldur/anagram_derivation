@@ -27,3 +27,4 @@ TARGET_COMPILE_OPTIONS(anagram_derivation-test PRIVATE
 		-Wno-unused-private-field -Wnon-virtual-dtor)
 
 CONFIGURE_FILE(dictionaries/sample_dict dictionaries/sample_dict COPYONLY)
+CONFIGURE_FILE(dictionaries/crawled dictionaries/crawled COPYONLY)
