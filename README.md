@@ -19,6 +19,7 @@ Assumptions I have made:
 
 - External dictionary should exist. Otherwise exception will be thrown
 - Words in external dictionary should be ASCII chars. I don't want handle ążźć etc chars.
+- If algorithm don't find any solution it will return input :)
 
 
 ----
