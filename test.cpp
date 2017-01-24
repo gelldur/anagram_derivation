@@ -26,6 +26,13 @@ TEST(AnagramDerivation, checkCaseSensitivity)
 	EXPECT_EQ("aliens", findLongest("aIl", {"ail", "tennis", "nails", "desk", "aliens", "table", "engine", "sail"}));
 }
 
+TEST(AnagramDerivation, bug1)
+{
+	EXPECT_EQ("abbacef", findLongest("abb", {"abba"
+			, "abbac", "abbace", "abbacef"
+			, "abbad", "abbade"}));
+}
+
 TEST(AnagramDerivation, sampleDictionary1)
 {
 	EXPECT_EQ("dictionary", findLongest("dit", loadDicationary("dictionaries/sample_dict")));
